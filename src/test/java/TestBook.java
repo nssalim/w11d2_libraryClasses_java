@@ -22,7 +22,7 @@ public class TestBook {
     }
 
     @Test
-    public void genre() {
+    public void hasGenre() {
         assertEquals("Classics", book.getGenre());
     }
 

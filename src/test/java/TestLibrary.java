@@ -61,7 +61,7 @@ public class TestLibrary {
     }
 
     @Test
-    public void checkCanLendBook() {
+    public void canLendBookCheck() {
         // arrange
         library.addBook(book3);
         // act
@@ -73,7 +73,7 @@ public class TestLibrary {
     }
 
     @Test
-    public void updatesBooksByGenre_whenBookAdded() {
+    public void canUpdateBooksByGenre_whenBookAdded() {
         //arrange
         library2.addBook(book1);
         library2.addBook(book2);
